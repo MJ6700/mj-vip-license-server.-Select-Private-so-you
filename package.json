@@ -1,0 +1,8 @@
+{
+  "name": "mj-vip-pro-license-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reference licensing API for the user's own MJ VIP/PRO KernelSU module",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
