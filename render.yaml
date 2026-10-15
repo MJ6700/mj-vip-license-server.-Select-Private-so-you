@@ -1,0 +1,15 @@
+# Exported from Render on 2026-10-15T08:49:18Z
+version: "1"
+services:
+- type: web
+  name: mj-vip-license-server.-Select-Private-so-you-1
+  runtime: node
+  repo: https://github.com/MJ6700/mj-vip-license-server.-Select-Private-so-you
+  plan: free
+  envVars:
+  - key: MJ_ADMIN_TOKEN
+    sync: false
+  region: ohio
+  buildCommand: npm install
+  startCommand: npm start
+  autoDeployTrigger: commit
